@@ -108,8 +108,8 @@ public class ReglasTests {
         "8/8/8/3Pp3/3PP3/4T3/P3C3/8, d4d5, BLANCO, false, Peón blanco: avance con casilla ocupada por pieza del mismo color",
         "8/p3c3/4t3/3pp3/3pP3/8/8/8, d4d3, NEGRO, true, Peón negro: avance una casilla",
         "8/p3c3/4t3/3pp3/3pP3/8/8/8, a7a6, NEGRO, true, Peón negro: avance una casilla desde posición inicial",
-        "8/p3c3/4t3/3pp3/3pP3/8/8/8, e5e4, NEGRO, true, Peón negro: avance con casilla ocupada",
-        "8/p3c3/4t3/3pp3/3pP3/8/8/8, d5d4, NEGRO, true, Peón negro: avance con casilla ocupada por pieza del mismo color",
+        "8/p3c3/4t3/3pp3/3pP3/8/8/8, e5e4, NEGRO, false, Peón negro: avance con casilla ocupada",
+        "8/p3c3/4t3/3pp3/3pP3/8/8/8, d5d4, NEGRO, false, Peón negro: avance con casilla ocupada por pieza del mismo color",
 
         // Peones: avance de dos casillas
         "8/8/8/8/3p1P2/2p1P3/PPPPPP2/8, a2a4, BLANCO, true, Peón blanco: avance dos casillas desde posición inicial",
@@ -321,7 +321,7 @@ public class ReglasTests {
 
             // Movimientos bloqueados por una pieza enemiga (sin captura)
             "8/8/8/2p5/8/4A3/8/8, e3b6, BLANCO, false, Alfil: movimiento diagonal bloqueado por enemigo sin captura",
-            "8/8/8/8/8/4A3/2p6/8, e3g7, BLANCO, false, Alfil: movimiento diagonal bloqueado por enemigo sin captura",
+            "8/8/8/8/8/4A3/2p5/8, e3g7, BLANCO, false, Alfil: movimiento diagonal bloqueado por enemigo sin captura",
 
             // NEGRAS
             // Movimientos diagonales largos y cortos
@@ -346,7 +346,7 @@ public class ReglasTests {
 
             // Movimientos bloqueados por una pieza enemiga (sin captura)
             "8/8/8/2P5/8/4a3/8/8, e3b6, NEGRO, false, Alfil negro: movimiento diagonal bloqueado por enemigo sin captura",
-            "8/8/8/8/8/4a3/2P6/8, e3g7, NEGRO, false, Alfil negro: movimiento diagonal bloqueado por enemigo sin captura"
+            "8/8/8/8/8/4a3/2P5/8, e3g7, NEGRO, false, Alfil negro: movimiento diagonal bloqueado por enemigo sin captura"
     })
 
     void movimientosDelAlfil(String fen, String movimiento, Color color, boolean esperado, String descripcion) {
