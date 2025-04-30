@@ -475,9 +475,9 @@ public class ReglasTests {
             "8/8/8/8/8/3R4/8/8, d3c2, BLANCO, true, Rey blanco: movimiento diagonal",
             "8/8/8/8/8/3R4/8/8, d3e3, BLANCO, true, Rey blanco: movimiento horizontal",
             "8/8/8/8/8/3R4/8/8, d3d4, BLANCO, true, Rey blanco: movimiento vertical",
-            "8/8/1r7/8/8/8/8/8, b6a5, NEGRO, true, Rey negro: movimiento diagonal",
-            "8/8/1r7/8/8/8/8/8, b6a6, NEGRO, true, Rey negro: movimiento horizontal",
-            "8/8/1r7/8/8/8/8/8, b6b7, NEGRO, true, Rey negro: movimiento vertical",
+            "8/8/1r6/8/8/8/8/8, b6a5, NEGRO, true, Rey negro: movimiento diagonal",
+            "8/8/1r6/8/8/8/8/8, b6a6, NEGRO, true, Rey negro: movimiento horizontal",
+            "8/8/1r6/8/8/8/8/8, b6b7, NEGRO, true, Rey negro: movimiento vertical",
 
             // Movimiento inválido del rey
             "8/8/8/8/8/3R4/8/8, d3d7, BLANCO, false, Rey blanco: movimiento de más de una casilla",
