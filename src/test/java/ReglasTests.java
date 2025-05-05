@@ -528,10 +528,10 @@ public class ReglasTests {
             // Partida en jaque mate
             "8/8/8/8/8/8/8/8, true, BLANCO, Tablero vacío debe ser final de partida",
             "8/8/8/8/8/8/8/8, true, NEGRO, Tablero vacío debe ser final de partida",
-            "8/8/3T4/ppp5/r/8/8/8, true, BLANCO, Blancas no tienen rey: debería ser final de partida",
-            "8/8/3T4/ppp5/r/8/8/8, false, NEGRO, Negras tienen rey: no debería ser final de partida",
-            "8/8/3T4/ppp5/R/8/8/8, false, BLANCO, Blancas tienen rey: no debería ser final de partida",
-            "8/8/3T4/ppp5/R/8/8/8, true, NEGRO, Negras no tienen rey: debería ser final de partida"
+            "8/8/3T4/ppp5/r7/8/8/8, true, BLANCO, Blancas no tienen rey: debería ser final de partida",
+            "8/8/3T4/ppp5/r7/8/8/8, false, NEGRO, Negras tienen rey: no debería ser final de partida",
+            "8/8/3T4/ppp5/R7/8/8/8, false, BLANCO, Blancas tienen rey: no debería ser final de partida",
+            "8/8/3T4/ppp5/R7/8/8/8, true, NEGRO, Negras no tienen rey: debería ser final de partida"
     })
     void finalDePartida(String fen, boolean resultado, Color color, String descripcion) {
         Tablero tablero = new Tablero(fen);

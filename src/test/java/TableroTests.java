@@ -36,7 +36,7 @@ public class TableroTests {
         Tablero t = new Tablero(t1);
         assertEquals(8, t.getNumFilas(), "El tablero debería tener 8 filas");
         assertEquals(8, t.getNumColumnas(), "El tablero debería tener 8 columnas");
-        assertEquals(new Pieza('r'), t.getPieza(0, 7), "La casilla (0, 7) debería contener una torre negra para el tablero 7r/8/8/8/8/8/4P3/4R3");
+        assertEquals(new Pieza('r'), t.getPieza(0, 7), "La casilla (0, 7) debería contener un rey negro para el tablero 7r/8/8/8/8/8/4P3/4R3");
         assertEquals(new Pieza('P'), t.getPieza(6, 4), "La casilla (6, 4) debería contener un peón blanco para el tablero 7r/8/8/8/8/8/4P3/4R3");
         assertEquals(new Pieza('R'), t.getPieza(7, 4), "La casilla (7, 4) debería contener al rey blanco para el tablero 7r/8/8/8/8/8/4P3/4R3");
         // El resto de las casillas deberían estar vacías
